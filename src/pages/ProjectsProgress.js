@@ -55,14 +55,14 @@ const ProjectsProgress = () => {
                 <div
                     style={{
                         margin: "0 auto",
-                        maxWidth: "900px",
+                        maxWidth: "80%",
                         borderRadius: "12px",
                         overflow: "hidden",
                         border: "1px solid #e0e0e0",
                     }}
                 >
                     <table style={{ width: "100%", borderCollapse: "collapse" }}>
-                        <thead style={{ background: "#fafafa" }}>
+                        <thead style={{ background: "#fafafa", borderBottom: "1px solid #e0e0e0" }}>
                             <tr>
                                 <th style={thStyle}>Student</th>
                                 <th style={thStyle}>Project</th>
@@ -117,6 +117,7 @@ const ProjectsProgress = () => {
 };
 
 const thStyle = {
+    width: "40%",
     textAlign: "left",
     padding: "16px",
     fontSize: "1rem",
@@ -125,6 +126,7 @@ const thStyle = {
 };
 
 const tdStyle = {
+    textAlign: "left",
     padding: "16px",
     fontSize: "0.95rem",
     color: "#444",

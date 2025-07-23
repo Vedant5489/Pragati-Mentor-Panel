@@ -35,6 +35,7 @@ export const MentorDashboard = () => {
             icon="🌐"
             title="Open Source Contributions"
             description="Review your student’s pull requests, commits, and activity on open source platforms."
+            onClick={() => navigate("/open-source-contributions")}
           />
           <DashboardCard
             icon="📝"

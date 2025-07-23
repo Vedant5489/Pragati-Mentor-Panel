@@ -1,0 +1,62 @@
+/* Add your styles here for OpenSourceContributions component */
+
+.main-content {
+  margin: 2rem 0;
+}
+
+.center-heading {
+  text-align: center;
+}
+/* removed stray brace above */
+.activity-section {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.activity-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.user-select-box {
+  margin-left: auto;
+}
+.tab {
+  background: #278a52;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.tab.active {
+  background: #f47738;
+}
+.contributions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.contributions-table th,
+.contributions-table td {
+  padding: 1rem;
+  text-align: left;
+}
+.contributions-table th {
+  background: #f4f4f4;
+  color: #278a52;
+}
+.platform-cell {
+  display: flex;
+  align-items: center;
+}
+.platform-icon {
+  margin-right: 0.5rem;
+}
